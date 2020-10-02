@@ -2,7 +2,7 @@
 
 nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     min-height: 8vh;
     align-items: center;
     max-height: 10vh;
@@ -33,9 +33,8 @@ nav {
     margin: 0;
 }
 
-.logo:hover {
-    color: white;
-    text-decoration: none;
+.logosHeader:hover {
+    text-decoration: black;
 }
 
 .navLinks {
