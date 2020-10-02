@@ -12,13 +12,21 @@ nav {
     width: 100%;
 }
 
+
 .logo {
-    color: white;
+    display: flex;
+    color: rgb(204, 204, 204);
     text-transform: uppercase;
     letter-spacing: 4px;
     font-size: 20px;
     margin: 10px;
 }
+
+.logoLkr {
+    width: 90px;
+    height: 100%;
+}
+
 
 .logo h4 {
     margin: 0;
@@ -47,9 +55,8 @@ nav {
 }
 
 .navLinks li a {
-    color: white;
+    color:  rgb(204, 204, 204);
     letter-spacing: 1px;
-    background-color: rgba(0, 0, 0, 0.925);
 }
 
 .navLinks li a:hover {
