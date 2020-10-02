@@ -2,7 +2,7 @@
 
 nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     min-height: 8vh;
     align-items: center;
     max-height: 10vh;
@@ -10,6 +10,7 @@ nav {
     position: fixed;
     top: 0;
     width: 100%;
+    padding: 0 10px;
 }
 
 
