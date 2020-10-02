@@ -1,0 +1,53 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+
+/********** LOGO LKR HEADER **********/
+
+.logoLkrHeader {
+    width: 150px;
+}
+
+
+/********** NAVBAR **********/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #111;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+    border-right: 1px solid #bbb;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(29, 29, 29);
+}
+
+
+/********** IMG HEADER **********/
+
+.photoScene {
+    width: 100%;
+}
