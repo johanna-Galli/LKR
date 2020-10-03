@@ -1,0 +1,25 @@
+.footer {
+    width: 100%;
+    margin: 0;
+    height: 100px;
+    background-color: #FCFCFC;
+    position: absolute;
+    bottom: 0;
+    color: rgb(134, 134, 134);
+    padding: 10px 0;
+    text-align: center;
+    border-top: solid 1px rgb(226, 226, 226);
+}
+
+.logoLkrFooter {
+    max-width: 230px;
+    margin: auto;
+}
+
+.fa-youtube:before {
+    color: #aa0000;
+}
+
+.fa-facebook-square:before {
+    color: #0f66a0;
+}
