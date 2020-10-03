@@ -11,6 +11,7 @@ nav {
     top: 0;
     width: 100%;
     padding: 0 10px;
+    z-index: 20;
 }
 
 
@@ -83,9 +84,13 @@ nav {
     transition: all 0.3s ease;
 }
 
-@media screen and (max-width:900px) {
+@media screen and (max-width:960px) {
     body {
         overflow-x: hidden;
+    }
+    nav {
+        background-color: rgba(0, 0, 0, 0.800);
+        backdrop-filter: blur(5px) contrast(.8);
     }
     .burger {
         display: block;
@@ -95,7 +100,8 @@ nav {
         right: 0px;
         height: 92vh;
         top: 8vh;
-        background-color: rgba(0, 0, 0, 0.925);
+        background-color: rgba(0, 0, 0, 0.800);
+        backdrop-filter: blur(5px) contrast(.8);
         display: flex;
         flex-direction: column;
         align-items: center;
