@@ -2,6 +2,7 @@
 let burger = document.querySelector(".burger");
 let nav = document.querySelector(".navLinks");
 let navLinks = document.querySelectorAll(".navLinks li");
+let scrollTop = document.documentElement.scrollTop;
 //let photoScene = doncument.querySelector(".photoScene");
 
 //let intElemScrollTop = photoScene.scrollTop;
@@ -29,20 +30,22 @@ let navSlide = () => {
 
 // fonction au scroll
 window.onscroll = function () { scrollFunction() };
-/*
+
 function scrollFunction() {
     //valeur du scroll top
     let scrollTop = document.documentElement.scrollTop;
-    let scrollHeightNav = nav.scrollHeight;
 
     if (scrollTop > 10) {
-        nav.style.backgroundColor = "black";
-    } else {
-        nav.style.backgroundColor = "none";
+        console.log(scrollTop);
+        console.log("supp a 10");
+        //nav.style.backgroundColor = "black";
+    } else if (scrollTop >= 0 || scrollTop <= 10) {
+        //nav.style.backgroundColor = "none";
+        console.log("inf a 10");
     }
 
 
-}*/
+}
 
 let navBackground = () => {
 

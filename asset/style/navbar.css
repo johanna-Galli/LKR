@@ -15,6 +15,7 @@ nav {
 }
 
 
+
 .logo {
     display: flex;
     color: rgb(204, 204, 204);
@@ -22,9 +23,13 @@ nav {
     letter-spacing: 4px;
     font-size: 20px;
     margin: 10px;
+    margin-top: 11%;
+    transform: translateY(-50%);
 }
 
 .logoLkr {
+    margin-top: 10%;
+    transform: translateY(-50%);
     width: 90px;
     height: 100%;
 }
